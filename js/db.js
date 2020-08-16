@@ -10,7 +10,7 @@ dbPromised
     .then(db=> {
     let tx = db.transaction("clubs", "readwrite");
     let store = tx.objectStore("clubs");   
-    store.put(club);
+    store.add(club);
     return tx.complete;
     })
     .then(()=> {
