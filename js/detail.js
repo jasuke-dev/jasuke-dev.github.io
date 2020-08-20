@@ -140,12 +140,16 @@ function ShowSavedClub(){
         document.getElementById("saved").innerHTML=""
         let savedClub = "";
         clubs.forEach(club=> {
-        savedClub += `
+            let clubImage = club.crestUrl;
+            if(clubImage === null){
+                clubImage="../icon/image-null.png"
+            }
+            savedClub += `
                 <div class="col s12 m6" >
                     <div class="card">
                         <a href="./detail-club.html?id=${club.id}&saved=true">
                             <div class="card-image waves-effect waves-block waves-light align-center">
-                                <img src="${club.crestUrl}" height="200"/>
+                                <img src="${clubImage}" height="200"/>
                             </div>
                         </a>
                         <div class="card-content">                       
