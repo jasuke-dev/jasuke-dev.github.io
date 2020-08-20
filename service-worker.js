@@ -33,6 +33,7 @@ workbox.precaching.precacheAndRoute([
     {url:"/icon/PL-192.png",revision:'1'},
     {url:"/icon/PL-512.png",revision:'1'},
     {url:"/icon/PL-apple-192.png",revision:'1'},
+    {url:"/icon/image-null.png",revision:'3'},
     {url:"/manifest.json",revision:'1'},
 ],{
 ignoreUrlParametersMatching:[/.*/]

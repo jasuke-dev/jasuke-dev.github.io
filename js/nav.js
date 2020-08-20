@@ -46,7 +46,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (this.status === 200) {
                     content.innerHTML = xhttp.responseText;
                     if(page==="standing")getAllStandings()
-                    else if(page==="saved")ShowSavedClub()
+                    else if(page==="saved"){
+                        ShowSavedClub()
+                        cekSaved()   
+                    }
                     
                 } else if (this.status === 404) {
                     content.innerHTML = "<p>Halaman tidak ditemukan.</p>";

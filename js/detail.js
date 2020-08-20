@@ -36,11 +36,15 @@ function ShowDetail(data){
     let content = document.getElementById("body-content");
     let profil = document.getElementById("profil");
     let posisi = "";
+    let clubImage = data.crestUrl;
+    if(clubImage === null){
+        clubImage="../icon/image-null.png"
+    }
     profil.innerHTML=`
     <div id="content-club">
         <div class="row">
             <div class="col s12 m4 center-align">
-                <img class="responsive-img" src="${data.crestUrl}" alt="logo_${data.name}"></img>
+                <img class="responsive-img" src="${clubImage}" alt="logo_${data.name}"></img>
             </div>
             <div class="col s12 m8">
                 <table>
@@ -177,4 +181,27 @@ function GetSavedClubById(){
     getById(idParam).then(club=>{
         ShowDetail(club)
     });
+}
+
+function cekSaved(){
+    let count = 0;
+    let ganti = document.getElementById("cek-club")
+    getAll().then(clubs=>{
+        clubs.forEach(club=>{
+            console.log("nambah")
+            count=count+1;
+        })
+        if(count>0){
+            console.log(count)
+            console.log("ganti")
+            ganti.classList.remove("show");
+            ganti.classList.add("hide");
+        }else{
+            console.log(count)
+            console.log("ganti")
+            ganti.classList.remove("hide");
+            ganti.classList.add("show");
+            
+        }
+    })
 }

@@ -35,3 +35,18 @@ body {
   .container{
     flex: 1 0 auto;
   }
+.text-white{
+    color: white;
+    margin: 10px;
+}
+.italic{
+    size: 10em;
+    font-style: italic;
+    color: black;
+}
+.show{
+    display: inline;
+}
+.hide{
+    display: none;
+}
