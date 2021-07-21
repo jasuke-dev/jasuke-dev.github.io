@@ -3,8 +3,8 @@
   "warnings": [],
   "version": "4.46.0",
   "hash": "f5afda6976ecf5d839dc",
-  "time": 12811,
-  "builtAt": 1626879172482,
+  "time": 16896,
+  "builtAt": 1626884137601,
   "publicPath": "",
   "outputPath": "C:\\web\\Ngelih\\dist",
   "assetsByChunkName": {
@@ -246,9 +246,9 @@
           "chunks": [
             0
           ],
-          "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-          "issuerId": 5,
-          "issuerName": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js",
+          "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\regenerator-runtime\\runtime.js",
+          "issuerId": 4,
+          "issuerName": "./node_modules/regenerator-runtime/runtime.js",
           "issuerPath": [
             {
               "id": null,
@@ -256,9 +256,9 @@
               "name": "./src/scripts/index.js"
             },
             {
-              "id": 5,
-              "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-              "name": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js"
+              "id": 4,
+              "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\regenerator-runtime\\runtime.js",
+              "name": "./node_modules/regenerator-runtime/runtime.js"
             }
           ],
           "failed": false,
@@ -2741,9 +2741,9 @@
       "chunks": [
         0
       ],
-      "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-      "issuerId": 5,
-      "issuerName": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js",
+      "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\regenerator-runtime\\runtime.js",
+      "issuerId": 4,
+      "issuerName": "./node_modules/regenerator-runtime/runtime.js",
       "issuerPath": [
         {
           "id": null,
@@ -2751,9 +2751,9 @@
           "name": "./src/scripts/index.js"
         },
         {
-          "id": 5,
-          "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\lazysizes\\plugins\\parent-fit\\ls.parent-fit.js",
-          "name": "./node_modules/lazysizes/plugins/parent-fit/ls.parent-fit.js"
+          "id": 4,
+          "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\regenerator-runtime\\runtime.js",
+          "name": "./node_modules/regenerator-runtime/runtime.js"
         }
       ],
       "failed": false,
@@ -7982,20 +7982,20 @@
                     },
                     {
                       "moduleId": null,
-                      "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\assert.js",
-                      "module": "./node_modules/workbox-core/_private/assert.js",
-                      "moduleName": "./node_modules/workbox-core/_private/assert.js",
-                      "type": "harmony import specifier",
-                      "userRequest": "../_private/WorkboxError.js",
-                      "loc": "43:14-26"
-                    },
-                    {
-                      "moduleId": null,
                       "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\utils\\createCacheKey.js",
                       "module": "./node_modules/workbox-precaching/utils/createCacheKey.js",
                       "moduleName": "./node_modules/workbox-precaching/utils/createCacheKey.js",
                       "type": "harmony import specifier",
                       "userRequest": "workbox-core/_private/WorkboxError.js",
+                      "loc": "43:14-26"
+                    },
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\assert.js",
+                      "module": "./node_modules/workbox-core/_private/assert.js",
+                      "moduleName": "./node_modules/workbox-core/_private/assert.js",
+                      "type": "harmony import specifier",
+                      "userRequest": "../_private/WorkboxError.js",
                       "loc": "43:14-26"
                     },
                     {
@@ -10642,9 +10642,9 @@
                   "optional": false,
                   "prefetched": false,
                   "chunks": [],
-                  "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-routing\\Route.js",
+                  "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\PrecacheController.js",
                   "issuerId": null,
-                  "issuerName": "./node_modules/workbox-routing/Route.js",
+                  "issuerName": "./node_modules/workbox-precaching/PrecacheController.js",
                   "issuerPath": [
                     {
                       "id": null,
@@ -10653,18 +10653,18 @@
                     },
                     {
                       "id": null,
-                      "identifier": "C:\\web\\Ngelih\\node_modules\\workbox-routing\\registerRoute.mjs",
-                      "name": "./node_modules/workbox-routing/registerRoute.mjs"
+                      "identifier": "C:\\web\\Ngelih\\node_modules\\workbox-precaching\\index.mjs",
+                      "name": "./node_modules/workbox-precaching/index.mjs"
                     },
                     {
                       "id": null,
-                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-routing\\registerRoute.js",
-                      "name": "./node_modules/workbox-routing/registerRoute.js"
+                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\index.js",
+                      "name": "./node_modules/workbox-precaching/index.js"
                     },
                     {
                       "id": null,
-                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-routing\\Route.js",
-                      "name": "./node_modules/workbox-routing/Route.js"
+                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\PrecacheController.js",
+                      "name": "./node_modules/workbox-precaching/PrecacheController.js"
                     }
                   ],
                   "failed": false,
@@ -12297,9 +12297,9 @@
                   "optional": false,
                   "prefetched": false,
                   "chunks": [],
-                  "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\CacheFirst.js",
+                  "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\NetworkFirst.js",
                   "issuerId": null,
-                  "issuerName": "./node_modules/workbox-strategies/CacheFirst.js",
+                  "issuerName": "./node_modules/workbox-strategies/NetworkFirst.js",
                   "issuerPath": [
                     {
                       "id": null,
@@ -12318,8 +12318,8 @@
                     },
                     {
                       "id": null,
-                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\CacheFirst.js",
-                      "name": "./node_modules/workbox-strategies/CacheFirst.js"
+                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\NetworkFirst.js",
+                      "name": "./node_modules/workbox-strategies/NetworkFirst.js"
                     }
                   ],
                   "failed": false,
@@ -13217,9 +13217,9 @@
                   "optional": false,
                   "prefetched": false,
                   "chunks": [],
-                  "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
+                  "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
                   "issuerId": null,
-                  "issuerName": "./node_modules/workbox-core/_private/cacheWrapper.js",
+                  "issuerName": "./node_modules/workbox-core/_private/fetchWrapper.js",
                   "issuerPath": [
                     {
                       "id": null,
@@ -13243,8 +13243,8 @@
                     },
                     {
                       "id": null,
-                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
-                      "name": "./node_modules/workbox-core/_private/cacheWrapper.js"
+                      "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
+                      "name": "./node_modules/workbox-core/_private/fetchWrapper.js"
                     }
                   ],
                   "failed": false,
@@ -13254,18 +13254,18 @@
                   "reasons": [
                     {
                       "moduleId": null,
-                      "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
-                      "module": "./node_modules/workbox-core/_private/cacheWrapper.js",
-                      "moduleName": "./node_modules/workbox-core/_private/cacheWrapper.js",
+                      "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
+                      "module": "./node_modules/workbox-core/_private/fetchWrapper.js",
+                      "moduleName": "./node_modules/workbox-core/_private/fetchWrapper.js",
                       "type": "harmony side effect evaluation",
                       "userRequest": "../utils/pluginUtils.js",
                       "loc": "22:0-54"
                     },
                     {
                       "moduleId": null,
-                      "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
-                      "module": "./node_modules/workbox-core/_private/fetchWrapper.js",
-                      "moduleName": "./node_modules/workbox-core/_private/fetchWrapper.js",
+                      "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
+                      "module": "./node_modules/workbox-core/_private/cacheWrapper.js",
+                      "moduleName": "./node_modules/workbox-core/_private/cacheWrapper.js",
                       "type": "harmony side effect evaluation",
                       "userRequest": "../utils/pluginUtils.js",
                       "loc": "22:0-54"
@@ -15974,20 +15974,20 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\assert.js",
-                  "module": "./node_modules/workbox-core/_private/assert.js",
-                  "moduleName": "./node_modules/workbox-core/_private/assert.js",
-                  "type": "harmony import specifier",
-                  "userRequest": "../_private/WorkboxError.js",
-                  "loc": "43:14-26"
-                },
-                {
-                  "moduleId": null,
                   "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\utils\\createCacheKey.js",
                   "module": "./node_modules/workbox-precaching/utils/createCacheKey.js",
                   "moduleName": "./node_modules/workbox-precaching/utils/createCacheKey.js",
                   "type": "harmony import specifier",
                   "userRequest": "workbox-core/_private/WorkboxError.js",
+                  "loc": "43:14-26"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\assert.js",
+                  "module": "./node_modules/workbox-core/_private/assert.js",
+                  "moduleName": "./node_modules/workbox-core/_private/assert.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../_private/WorkboxError.js",
                   "loc": "43:14-26"
                 },
                 {
@@ -18634,9 +18634,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-routing\\Route.js",
+              "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\PrecacheController.js",
               "issuerId": null,
-              "issuerName": "./node_modules/workbox-routing/Route.js",
+              "issuerName": "./node_modules/workbox-precaching/PrecacheController.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -18645,18 +18645,18 @@
                 },
                 {
                   "id": null,
-                  "identifier": "C:\\web\\Ngelih\\node_modules\\workbox-routing\\registerRoute.mjs",
-                  "name": "./node_modules/workbox-routing/registerRoute.mjs"
+                  "identifier": "C:\\web\\Ngelih\\node_modules\\workbox-precaching\\index.mjs",
+                  "name": "./node_modules/workbox-precaching/index.mjs"
                 },
                 {
                   "id": null,
-                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-routing\\registerRoute.js",
-                  "name": "./node_modules/workbox-routing/registerRoute.js"
+                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\index.js",
+                  "name": "./node_modules/workbox-precaching/index.js"
                 },
                 {
                   "id": null,
-                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-routing\\Route.js",
-                  "name": "./node_modules/workbox-routing/Route.js"
+                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-precaching\\PrecacheController.js",
+                  "name": "./node_modules/workbox-precaching/PrecacheController.js"
                 }
               ],
               "failed": false,
@@ -20289,9 +20289,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\CacheFirst.js",
+              "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\NetworkFirst.js",
               "issuerId": null,
-              "issuerName": "./node_modules/workbox-strategies/CacheFirst.js",
+              "issuerName": "./node_modules/workbox-strategies/NetworkFirst.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -20310,8 +20310,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\CacheFirst.js",
-                  "name": "./node_modules/workbox-strategies/CacheFirst.js"
+                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-strategies\\NetworkFirst.js",
+                  "name": "./node_modules/workbox-strategies/NetworkFirst.js"
                 }
               ],
               "failed": false,
@@ -21209,9 +21209,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
+              "issuer": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
               "issuerId": null,
-              "issuerName": "./node_modules/workbox-core/_private/cacheWrapper.js",
+              "issuerName": "./node_modules/workbox-core/_private/fetchWrapper.js",
               "issuerPath": [
                 {
                   "id": null,
@@ -21235,8 +21235,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
-                  "name": "./node_modules/workbox-core/_private/cacheWrapper.js"
+                  "identifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
+                  "name": "./node_modules/workbox-core/_private/fetchWrapper.js"
                 }
               ],
               "failed": false,
@@ -21246,18 +21246,18 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
-                  "module": "./node_modules/workbox-core/_private/cacheWrapper.js",
-                  "moduleName": "./node_modules/workbox-core/_private/cacheWrapper.js",
+                  "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
+                  "module": "./node_modules/workbox-core/_private/fetchWrapper.js",
+                  "moduleName": "./node_modules/workbox-core/_private/fetchWrapper.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../utils/pluginUtils.js",
                   "loc": "22:0-54"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\fetchWrapper.js",
-                  "module": "./node_modules/workbox-core/_private/fetchWrapper.js",
-                  "moduleName": "./node_modules/workbox-core/_private/fetchWrapper.js",
+                  "moduleIdentifier": "C:\\web\\Ngelih\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!C:\\web\\Ngelih\\node_modules\\workbox-core\\_private\\cacheWrapper.js",
+                  "module": "./node_modules/workbox-core/_private/cacheWrapper.js",
+                  "moduleName": "./node_modules/workbox-core/_private/cacheWrapper.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "../utils/pluginUtils.js",
                   "loc": "22:0-54"
